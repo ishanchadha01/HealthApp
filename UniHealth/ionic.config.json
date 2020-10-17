@@ -1,0 +1,7 @@
+{
+  "name": "UniHealth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
