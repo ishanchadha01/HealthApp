@@ -1,0 +1,20 @@
+.title {
+    position: fixed; /* or absolute */
+    left: 45%;
+    margin-right: -80%;
+    top: 10%;
+    color: white;
+    font-size: x-large;
+}
+
+.patientButton {
+    text-align: center;
+    position: fixed; /* or absolute */
+    top: 40%;
+}
+
+.doctorButton {
+    text-align: center;
+    position: fixed; /* or absolute */
+    top: 50%;
+}
