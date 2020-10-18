@@ -1,0 +1,16 @@
+.content {
+    --ion-background-color: white;
+}
+
+.title {
+    position: fixed !important; /* or absolute */
+    left: 40% !important;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+
+.head {
+    left:0% !important;
+    font-size: xx-large;
+}

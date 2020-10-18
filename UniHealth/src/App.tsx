@@ -25,15 +25,17 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import PatientLogin from './pages/PatientLogin';
 import PatientData from './pages/PatientData';
+import UserData from './pages/UserData';
 
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
         <Route path="/" component={Home} exact={true} />
-        <Route path="/healthcare/login" component={DoctorLogin} />
+        <Route path="/healthcare/login" component={DoctorLogin}  />
         <Route path="/patient/login" component={PatientLogin} />
         <Route path="/patient/data" component={PatientData} />
+        <Route path="/patient/userdata" component={UserData} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
