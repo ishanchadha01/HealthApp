@@ -6,7 +6,7 @@ var DoctorID = "";
 
 class DoctorLogin extends Component {
     
-    handleChange = (e) => {
+    handleChange = (e: any) => {
         [e.target.name] = e.target.value;
         console.log(DoctorID);
     }
