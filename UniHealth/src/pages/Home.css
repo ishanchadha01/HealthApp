@@ -18,3 +18,7 @@
     position: fixed; /* or absolute */
     top: 50%;
 }
+
+.content {
+    --ion-background-color: black;
+}
