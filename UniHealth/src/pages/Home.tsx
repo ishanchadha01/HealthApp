@@ -16,7 +16,7 @@ class Home extends Component {
     return (
       <IonPage>
         <IonContent fullscreen className = "content">
-        <IonTitle className="title">UniHealth</IonTitle>
+        <IonTitle class="title">UniHealth</IonTitle>
         <IonContent className='patientButton' onClick = {this.handlePatientClick}>
           {/*-- Default --*/}
           <IonButton>Patient</IonButton>

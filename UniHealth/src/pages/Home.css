@@ -1,24 +1,26 @@
 .title {
     position: fixed; /* or absolute */
-    left: 45%;
+    left: 50% !important;
     margin-right: -80%;
     top: 10%;
-    color: primary;
+    color: white;
     font-size: x-large;
 }
 
 .patientButton {
-    text-align: center;
+    text-align: left;
     position: fixed; /* or absolute */
     top: 40%;
+    left: 42%;
 }
 
 .doctorButton {
-    text-align: center;
+    text-align: left;
     position: fixed; /* or absolute */
     top: 50%;
+    left:37%;
 }
 
 .content {
-    --ion-background-color: white;
+    --ion-background-color: black;
 }
