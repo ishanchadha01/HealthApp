@@ -21,3 +21,8 @@
     top: 50%;
     --ion-background-color: white;
 }
+
+.submit {
+    text-align: center;
+    top: 60%;
+}

@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
-import {IonPage, IonContent, IonTitle, IonInput, IonItem, IonLabel} from '@ionic/react'
+import {IonPage, IonContent, IonTitle, IonInput, IonItem, IonLabel, IonButton} from '@ionic/react'
 import "./DoctorLogin.css"
 
+var DoctorID = "";
 
 class DoctorLogin extends Component {
-    
-    state = {
-        username: "",
-        password: ""
-    }
     
     render() {
         return (
@@ -17,18 +13,14 @@ class DoctorLogin extends Component {
                     <IonTitle className="title">UniHealth</IonTitle>
                     <IonItem className = "username">
                         <IonLabel color="primary">
-                            Username
+                            Doctor ID
                         </IonLabel>
-                        <IonInput>
+                        <IonInput type = "text">
                         </IonInput>
-                    </IonItem>
-                    <IonItem className = "password">
-                        <IonLabel color="primary">
-                            Password
-                        </IonLabel>
-                        <IonInput type="password" color = "primary">
-                        </IonInput>
-                    </IonItem>
+                        <IonButton className = "submit">
+                        Submit
+                    </IonButton>
+                    </IonItem>  
                 </IonContent>
             </IonPage>
         )
