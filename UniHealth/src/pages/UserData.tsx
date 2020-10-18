@@ -11,8 +11,11 @@ class UserData extends Component {
         password: ""
     }
     patient = new Patient()
+    userID1: string = "";
     setText() {
-        
+        let patient = new Patient();
+        {/*e.target.value for setText if needed*/}
+        patient.userID = this.userID1;
     }
     saveInformation() {
         
@@ -31,8 +34,8 @@ class UserData extends Component {
                         <IonLabel color="black">
                             UserID
                         </IonLabel>
-                        <IonInput placeholder="Enter UserID" onIonChange={e => this.setText()} clearInput></IonInput>
-                    </IonItem>
+                        <IonInput placeholder="Enter UserID" onIonInput={(e: any) => this.setText()} clearInput></IonInput>
+                    </IonItem> 
                     <IonItem>
                         <IonLabel color="black">
                             Password
