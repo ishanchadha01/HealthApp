@@ -6,6 +6,16 @@ var DoctorID = "";
 
 class DoctorLogin extends Component {
     
+    handleChange = (e) => {
+        [e.target.name] = e.target.value;
+        console.log(DoctorID);
+    }
+
+
+    handleSubmit() {
+        window.location.href = "/healthcare/home"
+    }
+
     render() {
         return (
             <IonPage>   
@@ -15,9 +25,9 @@ class DoctorLogin extends Component {
                         <IonLabel color="primary">
                             Doctor ID
                         </IonLabel>
-                        <IonInput type = "text">
+                        <IonInput type = "text" name = "DoctorID" value = {DoctorID} onInput = {this.handleChange}>
                         </IonInput>
-                        <IonButton className = "submit">
+                        <IonButton className = "submit" onClick = {this.handleSubmit}>
                         Submit
                     </IonButton>
                     </IonItem>  
