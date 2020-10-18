@@ -9,6 +9,10 @@ class PatientData extends Component {
         username: "",
         password: ""
     }
+
+    handlePatientClick() {
+        
+    }
     
     render() {
         return (
@@ -23,37 +27,34 @@ class PatientData extends Component {
                                 </IonLabel>
                             </IonListHeader>
                             <IonItem>
-                                <IonButton>Patient 1</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 1</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 2</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 2</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 3</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 3</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 4</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 4</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 5</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 5</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 6</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 6</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 7</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 7</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 8</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 8</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 9</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 9</IonButton>
                             </IonItem>
                             <IonItem>
-                                <IonButton>Patient 10</IonButton>
-                            </IonItem>
-                            <IonItem>
-                                <IonButton>Patient 11</IonButton>
+                                <IonButton onClick = {this.handlePatientClick}>Patient 10</IonButton>
                             </IonItem>
                         </IonList>
                     </IonItem>

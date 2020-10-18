@@ -3,11 +3,11 @@
 }
 
 .title {
-    position: fixed; /* or absolute */
-    left: 0%;
+    position: absolute; /* or absolute */
+    left: 0% !important;
     text-align: left;
     color: black;
-    font-size: x-large;
+    font-size: xx-large !important;
 }
 
 .header {
