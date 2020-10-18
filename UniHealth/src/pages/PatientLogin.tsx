@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import {IonPage, IonContent, IonTitle, IonInput, IonItem, IonLabel} from '@ionic/react'
-import "./DoctorLogin.css"
+import "./PatientLogin.css"
 
 
-class DoctorLogin extends Component {
+class PatientLogin extends Component {
     
     state = {
         username: "",
@@ -35,4 +35,4 @@ class DoctorLogin extends Component {
    }
 }
 
-export default DoctorLogin;
+export default PatientLogin;

@@ -1,9 +1,5 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { render } from '@testing-library/react';
+import { IonButton, IonContent,IonPage, IonTitle} from '@ionic/react';
 import React, {Component} from 'react';
-import ExploreContainer from '../components/ExploreContainer';
-import { IonApp, IonRouterOutlet } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
 import './Home.css';
 
 class Home extends Component {
@@ -12,12 +8,16 @@ class Home extends Component {
     window.location.href = "/healthcare/login"
   }
 
+  handlePatientClick() {
+    window.location.href = "/patient/login"
+  }
+
   render() {
     return (
       <IonPage>
         <IonContent fullscreen className = "content">
         <IonTitle className="title">UniHealth</IonTitle>
-        <IonContent className='patientButton'>
+        <IonContent className='patientButton' onClick = {this.handlePatientClick}>
           {/*-- Default --*/}
           <IonButton>Patient</IonButton>
         </IonContent>

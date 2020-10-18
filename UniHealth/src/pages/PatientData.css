@@ -4,20 +4,24 @@
 
 .title {
     position: fixed; /* or absolute */
-    left: 45%;
-    margin-right: -80%;
-    top: 10%;
+    left: 0%;
+    text-align: left;
     color: black;
     font-size: x-large;
 }
 
-.username {
+.header {
+    font-size: xx-large !important;
+    
+}
+.patientList {
     text-align: left;
-    top: 40%;
+    top: 20%;
     background-color: white;
 }
-.password {
+.list {
     text-align: left;
     top: 50%;
+    left: 0%;
     --ion-background-color: white;
 }
