@@ -26,6 +26,7 @@ import './theme/variables.css';
 import PatientLogin from './pages/PatientLogin';
 import PatientData from './pages/PatientData';
 import UserData from './pages/UserData';
+import Vitals from './pages/Vitals';
 
 const App: React.FC = () => (
   <IonApp>
@@ -36,6 +37,7 @@ const App: React.FC = () => (
         <Route path="/patient/login" component={PatientLogin} />
         <Route path="/patient/data" component={PatientData} />
         <Route path="/patient/userdata" component={UserData} />
+        <Route path="/healthcare/vitals" component={Vitals} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
