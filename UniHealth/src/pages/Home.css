@@ -3,7 +3,7 @@
     left: 45%;
     margin-right: -80%;
     top: 10%;
-    color: white;
+    color: primary;
     font-size: x-large;
 }
 
@@ -20,5 +20,5 @@
 }
 
 .content {
-    --ion-background-color: black;
+    --ion-background-color: white;
 }

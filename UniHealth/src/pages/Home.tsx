@@ -1,9 +1,5 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { render } from '@testing-library/react';
+import { IonButton, IonContent,IonPage, IonTitle} from '@ionic/react';
 import React, {Component} from 'react';
-import ExploreContainer from '../components/ExploreContainer';
-import { IonApp, IonRouterOutlet } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
 import './Home.css';
 
 class Home extends Component {

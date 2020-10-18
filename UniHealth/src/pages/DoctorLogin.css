@@ -1,3 +1,23 @@
 .content {
-    --ion-background-color: black;
+    --ion-background-color: white;
+}
+
+.title {
+    position: fixed; /* or absolute */
+    left: 45%;
+    margin-right: -80%;
+    top: 10%;
+    color: black;
+    font-size: x-large;
+}
+
+.username {
+    text-align: left;
+    top: 40%;
+    background-color: white;
+}
+.password {
+    text-align: left;
+    top: 50%;
+    --ion-background-color: white;
 }

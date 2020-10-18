@@ -1,15 +1,36 @@
 import React, { Component } from 'react'
-import {IonPage, IonContent, IonTitle} from '@ionic/react'
+import {IonPage, IonContent, IonTitle, IonInput, IonItem, IonLabel} from '@ionic/react'
+import "./DoctorLogin.css"
 
 
 class DoctorLogin extends Component {
+    
+    state = {
+        username: "",
+        password: ""
+    }
+    
     render() {
         return (
-                  <IonPage>
-                    <IonContent fullscreen className = "content">
+            <IonPage>   
+                <IonContent fullscreen className = "content">
                     <IonTitle className="title">UniHealth</IonTitle>
-                    </IonContent>
-                    </IonPage>
+                    <IonItem className = "username">
+                        <IonLabel color="primary">
+                            Username
+                        </IonLabel>
+                        <IonInput>
+                        </IonInput>
+                    </IonItem>
+                    <IonItem className = "password">
+                        <IonLabel color="primary">
+                            Password
+                        </IonLabel>
+                        <IonInput type="password" color = "primary">
+                        </IonInput>
+                    </IonItem>
+                </IonContent>
+            </IonPage>
         )
    }
 }
